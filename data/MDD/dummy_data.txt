@@ -1,0 +1,1 @@
+We have created dummy matrices for the users' convenience and reference to understand how to arrange their datasets. Two folders namely normal and diseased will be created where Power_sub-<sub_id>_ses-<session_id>_run-0.npy files with a 264x264 matrix for each subject will be stored.

@@ -220,7 +220,7 @@ for SEED in seeds:
                     cluster_mask = np.loadtxt(SOURCE_DIRECTORY + class_subset + '_cluster_mask_seed' + str(SEED) + '_fold_' + str(fold_count) + '.csv').astype(int)
                 except IOError:
                     print('cluster_mask file not found, using a mask with all 1s instead')
-                    cluster_mask = np.empty([34716,])
+                    cluster_mask = np.ones([34716,])
         
             print('************** Fold:', fold_count, '**********************')
             

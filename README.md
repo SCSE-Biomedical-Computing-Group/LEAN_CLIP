@@ -1,6 +1,6 @@
 # Obtaining leaner DNN for decoding brain functional connectome in a single shot
 
-In this paper, we have proposed 2 algorithms: Layerwise Elimination of Accessory Nodes (LEAN) and Correlation-based eLimination of InPuts (CLIP).
+In this [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231221000977), we have proposed 2 algorithms: Layerwise Elimination of Accessory Nodes (LEAN) and Correlation-based eLimination of InPuts (CLIP).
 
 This code repository contains the implementation of 3 configurations as discussed in the paper:
 1. LEAN 
